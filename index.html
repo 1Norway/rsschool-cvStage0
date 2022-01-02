@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/favicon.ico" />
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li>
+                <a href="#about" class="header__nav-item">About Me</a>
+              </li>
+              <li>
+                <a href="#Contacts" class="header__nav-item">Contacts</a>
+              </li>
+              <li>
+                <a href="#Skills" class="header__nav-item">Skills</a>
+              </li>
+              <li>
+                <a href="#Example" class="header__nav-item">Code Example</a>
+              </li>
+              <li>
+                <a href="#Projects" class="header__nav-item">Projects</a>
+              </li>
+              <li>
+                <a href="#Education" class="header__nav-item">Education</a>
+              </li>
+              <li>
+                <a href="#English" class="header__nav-item">English</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container">
+          <div class="container-grid">
+            <section class="preview">
+              <div class="preview__author">
+                <img
+                  class="preview__author-avatar"
+                  src="img/avatar.jfif"
+                  alt="Avatar"
+                />
+                <h1>Vladimir Kuzmin</h1>
+                <p class="preview__author-profession">
+                  Junior Frontend Developer
+                </p>
+              </div>
+            </section>
+            <section id="about" class="about">
+              <div class="about__description">
+                <h2 class="about__description-header">About Me</h2>
+                <p class="about__description-story1">
+                  I am so wonderful, impetuous, mysterious and unique. It’s
+                  incredible luck to work with me, you no longer need a rabbit’s
+                  foot or a four-leaf clover. My aura will instill in you
+                  confidence in the future!
+                </p>
+                <p class="about__description-story2">
+                  At times I have a headache from tasks and I want to give up
+                  everything. I want to get a job as a programmer due to high
+                  salaries in the IT sphere.
+                </p>
+                <p class="about__description-pros">
+                  My strengths: search and analyse information.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <section class="features">
+            <div class="container-features">
+              <div class="features__feature">
+                <h2 id="Contacts">Contacts</h2>
+                <ul>
+                  <li>
+                    <span class="u-bold">Telegram: </span
+                    ><a
+                      class="features__feature-link"
+                      href="https://t.me/id1vine"
+                      target="_blank"
+                      >@id1vine</a
+                    >
+                  </li>
+                  <li>
+                    <span class="u-bold">Email: </span
+                    ><a
+                      class="features__feature-link"
+                      href="mailto:norway3k.work@hotmail.com"
+                      >Norway3k.work@hotmail.com</a
+                    >
+                  </li>
+                  <li>
+                    <span class="u-bold">Github: </span
+                    ><a
+                      class="features__feature-link"
+                      href="https://github.com/1Norway"
+                      target="_blank"
+                      >1Norway</a
+                    >
+                  </li>
+                  <li>
+                    <span class="u-bold">Location: </span>Saint-Petersburg,
+                    Russia
+                  </li>
+                  <li><span class="u-bold">Phone: </span>+7 931 322 322 1</li>
+                </ul>
+              </div>
+              <div class="features__feature">
+                <h2 id="Skills">Skills</h2>
+                <ul>
+                  <li><span class="u-bold">HTML</span></li>
+                  <li><span class="u-bold">CSS</span></li>
+                  <li><span class="u-bold">JavaScript</span></li>
+                  <li><span class="u-bold">Git</span></li>
+                </ul>
+              </div>
+              <div class="features__feature">
+                <h2 id="Education">Education</h2>
+                <ul>
+                  <li>W3Schools HTML/CSS/JS</li>
+                  <li>Udemy HTML/CSS/JS/Git</li>
+                  <li>CS50 Lectures from youtube</li>
+                </ul>
+              </div>
+              <div class="features__feature">
+                <h2 id="Example">Code Example</h2>
+                <pre>
+                <code>
+//  create a function that takes a list of non-negative integers     
+//  and strings and returns a new list with the strings filtered out.
+                                                                     
+function filter_list(l) {                                            
+                                                                     
+     return l.filter(value => typeof value === 'number');            
+                                                                     
+}
+                </code>
+              </pre>
+              </div>
+              <div class="features__feature">
+                <h2 id="Projects">Projects</h2>
+                <ul>
+                  <li>
+                    Markdown
+                    <a
+                      class="features__feature-link"
+                      href="https://1norway.github.io/rsschool-cv/cv"
+                      target="_blank"
+                      >CV</a
+                    >
+                  </li>
+                  <li>
+                    HTML&CSS
+                    <a class="features__feature-link" href="#" target="_blank"
+                      >CV</a
+                    >
+                  </li>
+                  <li>
+                    C#
+                    <a
+                      class="features__feature-link"
+                      href="https://github.com/1Norway/MatchGame"
+                      target="_blank"
+                      >Match Game</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="features__feature">
+                <h2 id="English">English</h2>
+                <p>My english level is <span class="u-bold">A2+</span></p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__nav">
+          <img class="year" src="img/year.svg" alt="Year" />
+          <a class="github" href="https://github.com/1Norway"></a>
+
+          <a class="rss" href="https://rs.school/js/" target="_blank"></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
